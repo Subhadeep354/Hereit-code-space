@@ -164,7 +164,7 @@ img{
 
 .nav__toggle,
 .nav__close{
-  color: hsl(259deg 52% 56%);
+  color: #FFF;
 }
 
 .nav__logo{
@@ -251,7 +251,8 @@ img{
   row-gap: 2rem;
 }
 .home__img{
-  width: 350px;
+  width: 300px;
+  padding-bottom: 2rem;
   justify-self: center;
 }
 .home__title{

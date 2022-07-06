@@ -252,7 +252,7 @@ img{
 }
 .home__img{
   width: 300px;
-  padding-bottom: 2rem;
+  
   justify-self: center;
 }
 .home__title{
@@ -291,12 +291,12 @@ img{
 /*=============== WHY ===============*/
 
 .why{
-  padding: 2rem 0 1rem;
+  padding: 1rem 0 1rem;
 }
 
 .why__container{
   position: center;
-  row-gap: 3.7rem;
+  row-gap: 3.5rem;
 }
 
 .why__img{

@@ -252,7 +252,6 @@ img{
 }
 .home__img{
   width: 300px;
-  
   justify-self: center;
 }
 .home__title{
@@ -294,9 +293,8 @@ img{
   padding: 1rem 0 1rem;
 }
 
-.why__container{
-  position: center;
-  row-gap: 3.5rem;
+.why__container2{
+  row-gap: 2rem;
 }
 
 .why__img{

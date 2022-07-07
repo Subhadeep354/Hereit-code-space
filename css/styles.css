@@ -300,6 +300,7 @@ img{
 .why__img{
   width: 200px;
   justify-self: center;
+  padding: 1.5rem 0 1.5rem;
 }
 
 .why__title{

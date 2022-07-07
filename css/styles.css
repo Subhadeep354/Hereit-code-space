@@ -294,7 +294,7 @@ img{
 }
 
 .why__container2{
-  row-gap: 2rem;
+  row-gap: 3.2rem;
 }
 
 .why__img{
@@ -332,7 +332,7 @@ img{
 /*=============== CATEGORY ===============*/
 
 .category{
-  padding: 3rem 0 1rem;
+  padding: 0rem 0 1rem;
 }
 
 /*.category__img{

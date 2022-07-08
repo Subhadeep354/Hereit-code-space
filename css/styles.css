@@ -170,6 +170,7 @@ img{
 .nav__logo{
   font-weight: 700;
   font-size: 2rem;
+  text-transform: capitalize;
   letter-spacing: -0.4px;
   display: inline-flex;
   align-items: center;
@@ -336,13 +337,6 @@ img{
   padding: 2rem 0 1rem;
 }
 
-/*.category__img{
-  width: 300px;
-  justify-self: center;
-  padding: 1rem 2.1rem 3rem 5rem;
-}
-*/
-
 .category-card__img{
   width: 300px;
   justify-self: center;
@@ -493,7 +487,7 @@ img{
 }
 
 .about__bg{
-  padding: 1rem 1.5rem 1rem;
+  padding: 1rem 2rem 3rem;
 }
 
 .about__card-description{

@@ -350,6 +350,7 @@ img{
 .category__container{
   gap: 2.5rem;
   padding-bottom: 1.3rem;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .category__title{
@@ -499,28 +500,26 @@ img{
     padding: 0rem 0rem;
 }
 .footer__container{
-  row-gap: 3rem;
-  padding: 2rem 0 1rem;
+  padding: 2rem 1.1rem 1rem;
 }
 
 .footer__bg{
-  padding: 1rem 1.5rem 1rem;
+  background-color: #2c234938;
+  padding: 1rem 1rem 1rem;
+  border-radius: 1.8rem;
 }
 
 .footer__logo{
   display: inline-flex;
   align-items: center;
-  column-gap: .3rem;
   color: hsl(9deg 68% 74%);
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-bottom: var(--mb-2-5);
-  transition: .3s;
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
 }
 
 .footer__logo-icon{
-  font-size: 1.15rem;
   color: hsl(9deg 68% 74%);
 }
 

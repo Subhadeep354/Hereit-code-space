@@ -559,4 +559,76 @@ img{
   margin: 5rem 0 1rem;
 }
 
+/* For small devices */
+@media screen and (max-width: 320px){
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 
+  .button{
+    display: inline-block;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 0.8rem 6rem;
+    border-radius: 3rem;
+    font-weight: var(--body-font);
+    font-size: 1rem;
+    transition: .3s;
+    color: #FFF;
+  }
+  
+
+  .button--flex{
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .home__img{
+    width: 190px;
+  }
+
+  .home__container{
+    position: relative;
+    row-gap: 2rem;
+  }
+
+  .home__title{
+    font-size: 1.5rem;
+  }
+
+  .home__description{
+    font-size: 0.7rem;
+  }
+
+  .why__img{
+    width: 180px;
+    justify-self: center;
+  }
+
+  .why__title{
+    font-size: 1.5rem;
+  }
+
+  .why__bg{
+    padding: 1rem 0.5rem 1rem;
+  }
+
+  .questions__img{
+    width: 180px;
+    justify-self: center;
+  }
+  
+  .questions__title{
+    font-size: 1.5rem;
+  }
+
+  .questions__item-title{
+    font-size: 0.7rem;
+  }
+  
+  .questions__item{
+    border-radius: 2rem;
+  }
+
+}

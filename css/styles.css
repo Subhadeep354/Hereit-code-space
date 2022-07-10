@@ -284,6 +284,7 @@ img{
   color: #FFF;
 }
 
+
 .button__icon{
   transition: .3s;
 }
@@ -501,13 +502,24 @@ img{
   line-height: 140%;
   margin-bottom: var(--mb-1.5);
 }
+.about__hereit{
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 140%;
+  color: #e39d8f;
+
+}
 
 .about__bg{
-  padding: 1rem 2rem 3rem;
+  padding: 1rem 2rem 0.1rem;
 }
 
 .about__card-description{
   text-align: center;
+}
+
+.about__item{
+  padding: 0.5rem 2rem 3rem;
 }
 
 /*=============== FOOTER ===============*/

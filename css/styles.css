@@ -134,6 +134,11 @@ img{
   max-width: 968px;
 }
 
+.container2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid{
   display: grid;
 }
@@ -217,7 +222,7 @@ img{
 }
 
 .nav__link{
-  color: var(--title-color);
+  color: hsl(259deg 100% 88%);
   font-weight: var(--font-medium);
   transition: .3s;
 }
@@ -360,6 +365,16 @@ img{
 }
 
 .category__card{
+  background-color: #130e21;
+  padding: 2.8rem 2rem 0rem 2rem;
+  border-radius: 1.3rem;
+}
+.category__card2{
+  background-color: #130e21;
+  padding: 2.8rem 2rem 0rem 2rem;
+  border-radius: 1.3rem;
+}
+.category__card3{
   background-color: #130e21;
   padding: 2.8rem 2rem 0rem 2rem;
   border-radius: 1.3rem;
@@ -865,7 +880,7 @@ img{
 
 @media screen and (min-width: 593px){
   .button{
-    padding: 0.9rem 7rem;
+    padding: 0.7rem 6rem;
     border-radius: 2rem;
     font-size: 1.15rem;
   }
@@ -881,6 +896,12 @@ img{
 @media screen and (min-width: 767px){
   body{
     margin: 0;
+  }
+
+  .button{
+    padding: 0.7rem 6rem;
+    border-radius: 2rem;
+    font-size: 1.15rem;
   }
 
   .nav{
@@ -939,3 +960,105 @@ img{
   
 
 }
+
+/* For large devices */
+@media screen and (min-width: 992px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section{
+    padding: 8rem 0 1rem;
+  }
+
+  .section__title,
+  .section__title-center{
+    font-size: var(--h1-font-size);
+  }
+
+  .home{
+    padding: 13rem 0 5rem;
+  }
+
+  .home__img{
+    width: 350px;
+  }
+  .home__description{
+    padding-right: 7rem;
+  }
+
+  .why__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why__img{
+    width: 280px;
+  }
+
+  .why__data{
+    padding: 7rem 0 5rem;
+  }
+
+  .why__title{
+    font-size: 2rem;
+  }
+
+  .why__bg{
+    padding: 3.5rem 2.5rem;
+  }
+
+  .why__card-title{
+    font-size: 1.6rem;
+  }
+
+  .category{
+    padding: 7rem 0 5rem;
+  }
+
+  .section{
+    padding: 2rem 0 1rem;
+  }
+  
+  .category__container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 5rem;
+  }
+
+  .category__card2{
+    padding: 2.8rem 4rem 0rem 4rem;
+  }
+  .category__card3{
+    padding: 5.6rem 3rem 0rem 3rem;
+  }
+
+  .questions__container{
+    padding: 1rem 0 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .questions__title{
+    text-align: center;
+  }
+
+  .questions__group{
+    row-gap: 2rem;
+  }
+  .questions__header{
+    padding: 1rem;
+  }
+
+  .questions__img{
+    width: 280px;
+    order: 1;
+  }
+
+  .questions__data{
+    padding: 4rem 0 5rem;
+  }
+
+
+}
+
+

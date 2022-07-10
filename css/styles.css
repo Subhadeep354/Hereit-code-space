@@ -564,6 +564,11 @@ img{
   margin: 1rem 0 1rem;
 }
 
+.footer__copy__link{
+  text-decoration: none;
+  color: hsl(235deg 100% 86% / 78%);
+}
+
 .footer__social{
   justify-self: center;
   column-gap: .75rem;

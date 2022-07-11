@@ -116,8 +116,7 @@ img{
 .section__title,
 .section__title-center{
   font-size: var(--h2-font-size);
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
+  margin-bottom: var(--mb-2);
   line-height: 140%;
 }
 
@@ -242,77 +241,3 @@ img{
   position: relative;
   color: var(--first-color);
 }
-
-/*=============== HOME ===============*/
-.explore{
-  padding: 1.3rem 0 0rem;
-}
-
-.home__container{
-  position: relative;
-  row-gap: 2rem;
-}
-.Exp__img{
-  width: 300px;
-  justify-self: center;
-}
-.home__title{
-  font-size: var(--big-font-size);
-  line-height: 140%;
-  margin-bottom: var(--mb-1);
-}
-
-.home__description{
-  margin-bottom: var(--mb-2-5);
-}
-
-/*=============== STEPS ===============*/
-.steps__bg{
-  background-color: hsl(253deg 47% 6%);
-  padding: 1rem 1rem 2rem;
-  border-radius: 1rem;
-}
-
-.step__description{
-  margin-bottom: var(--mb-2-5);
-  text-align: center;
-}
-
-.steps__container{
-  gap: 1.5rem;
-}
-
-.steps__title{
-  color: hsl(259deg 100% 88%);
-}
-
-
-.yt__video__edit{
-
-  height: 200px;
-  position: relative;
-  justify-content: center;
-}
-
-.steps__card{
-  background-color: hsl(250deg 61% 8%);
-  padding: 1rem 1rem 1rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.steps__card-title{
-  font-size: var(--h3-font-size);
-  padding-top: 1rem;
-  margin-bottom: 0.5rem;
-  text-align: left;
-}
-
-.steps__card-description{
-  font-size: var(--small-font-size);
-
-}
-
-.steps__card:hover .steps__card-number{
-  transform: translateY(-.25rem);
-}
-

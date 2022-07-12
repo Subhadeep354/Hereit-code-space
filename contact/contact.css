@@ -438,3 +438,43 @@ img{
   justify-self: center;
   column-gap: .75rem;
 }
+
+@media screen and (min-width: 767px){
+
+  .nav{
+    height: calc(var(--header-height) + 1rem);
+    column-gap: 3rem;
+  }
+
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    column-gap: 3rem;
+  }
+  .nav__menu{
+    margin-left: auto;
+  }
+
+  .steps__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section__title-center{
+    font-size: 2rem;
+  }
+
+}
+
+/* For large devices */
+@media screen and (min-width: 992px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+

@@ -79,7 +79,7 @@ textarea{
 
 body{
   margin: var(--header-height) 0 0 0;
-  background-color: var(--body-color);
+  background-color: hsl(16deg 100% 98%);
   color: hsl(0deg 0% 100% / 63%);
   transition: .4s;
 }
@@ -91,7 +91,7 @@ button{
 }
 
 h1,h2,h3{
-  color: hsl(259deg 100% 88%);
+  color: hsl(0deg 0% 6%);
   font-weight: var(--font-semi-bold);
 }
 
@@ -152,7 +152,7 @@ img{
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background-color: hsl(251deg 63% 8%);
+  background-color: hsl(16deg 100% 98%);
   position: fixed;
   top: 0;
   left: 0;
@@ -171,7 +171,7 @@ img{
 
 .nav__toggle,
 .nav__close{
-  color: #FFF;
+  color: #0f0f0f;
 }
 
 .nav__logo{
@@ -182,7 +182,7 @@ img{
   display: inline-flex;
   align-items: center;
   column-gap: 0.2rem;
-  color: #ea9d8f;
+  color: #0f0f0f;
 }
 
 
@@ -196,7 +196,7 @@ img{
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
-    background-color: #0b0816f5;
+    background-color: #ffffff;
     width: 60%;
     height: 100%;
     top: 0;
@@ -224,7 +224,7 @@ img{
 }
 
 .nav__link{
-  color: var(--title-color);
+  color: hsl(0deg 0% 6%);
   font-weight: var(--font-medium);
   transition: .3s;
 }
@@ -246,7 +246,7 @@ img{
 /* Active link */
 .active-link{
   position: relative;
-  color: var(--first-color);
+  color: hsl(0deg 0% 6%);
 }
 
 /*=============== HOME ===============*/
@@ -274,7 +274,7 @@ img{
 
 /*=============== STEPS ===============*/
 .steps__bg{
-  background-color: hsl(253deg 47% 6%);
+  background-color: #ffffff;
   padding: 1rem 1rem 2rem;
   border-radius: 1rem;
 }
@@ -289,7 +289,7 @@ img{
 }
 
 .steps__title{
-  color: hsl(259deg 100% 88%);
+  color: hsl(0deg 0% 6%);
 }
 
 
@@ -301,10 +301,15 @@ img{
 }
 
 .steps__card{
-  background-color: hsl(250deg 61% 8%);
+  background-color: #fff7f4;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0.5rem;
 }
+
+.step__description{
+  color: #0f0f0f;
+}
+
 
 .steps__card-title{
   font-size: var(--h3-font-size);
@@ -315,6 +320,7 @@ img{
 
 .steps__card-description{
   font-size: var(--small-font-size);
+  color: #fcaf78;
 
 }
 
